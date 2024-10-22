@@ -232,6 +232,28 @@ const projects = [
     image: amongus,
     source_code_link: "https://github.com/",
   },
+],
+    {
+    name: "Spotify Login",
+    description:
+      "I designed a sleek Spotify login page in Figma with a vibrant, user-friendly interface.",
+    tags: [
+      {
+        name: "Figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Design",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Clone",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: spotify,
+    source_code_link: "https://github.com/",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
