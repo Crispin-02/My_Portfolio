@@ -148,7 +148,7 @@ const testimonials = [
     name: "Henry A S Arrovin",
     designation: "Software Developer",
     company: "Self Employed",
-    image: "https://shorturl.at/Wm5H3",
+    image: "https://rb.gy/3ge2io",
   },
   {
     testimonial:
