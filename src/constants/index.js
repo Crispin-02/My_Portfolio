@@ -153,7 +153,7 @@ const testimonials = [
   {
     testimonial:
       "A visionary developer with a knack for blending technology and creativity seamlessly.",
-    name: "Ajay Pravin Mairu",
+    name: "Ajay Pravin E",
     designation: "Software Developer",
     company: "Self Employed",
     image: "https://shorturl.at/dWOMu",
