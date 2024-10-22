@@ -233,10 +233,10 @@ const projects = [
     source_code_link: "https://github.com/",
   },
 ],
-    {
-    name: "Spotify Login",
-    description:
-      "I designed a sleek Spotify login page in Figma with a vibrant, user-friendly interface.",
+{
+  name: "Spotify Login",
+   description:
+    "I designed a sleek Spotify login page in Figma with a vibrant, user-friendly interface.",
     tags: [
       {
         name: "Figma",
