@@ -233,26 +233,5 @@ const projects = [
     image: amongus,
     source_code_link: "https://github.com/",
   },
-  {
-    name: "Spotify Login",
-    description:
-      "Ready to dive back into your playlists? Sign in to Spotify and let the music play!",
-    tags: [
-      {
-        name: "Figma",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Clone",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Design",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: spotify,
-    source_code_link: "https://github.com/",
-  },
 ];
 export { services, technologies, experiences, testimonials, projects };
