@@ -254,6 +254,27 @@ const projects = [
     image: amongus,
     source_code_link: "https://github.com/",
   },
+  {
+    name: "Christmas Tree",
+    description:
+      "I crafted a Christmas tree in Blender, complete with holiday decor.",
+    tags: [
+      {
+        name: "Blender",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3D Model",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Texture",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: christmastree,
+    source_code_link: "https://github.com/",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

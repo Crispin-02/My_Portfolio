@@ -16,6 +16,7 @@ import login from "./login.png";
 import matchbox from "./matchbox.png";
 import amongus from "./amongus.png";
 import spotify from "./spotify.png";
+import christmastree from "./christmastree.png";
 
 export {
   logo,
@@ -35,4 +36,5 @@ export {
   matchbox,
   amongus,
   spotify,
+  christmastree,
 };
