@@ -13,6 +13,9 @@ import {
   amongus,
   spotify,
   christmastree,
+  house,
+  computer,
+  cars,
 } from "../assets";
 
 export const navLinks = [
@@ -274,6 +277,69 @@ const projects = [
       },
     ],
     image: christmastree,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Clone Cars",
+    description:
+      "I modeled a car in Blender, focusing on smooth, contemporary lines.",
+    tags: [
+      {
+        name: "Blender",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3D Model",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Texture",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cars,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Basic Computer",
+    description:
+      "I designed a computer in Blender with a clean, modern style.",
+    tags: [
+      {
+        name: "Blender",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3D Model",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Texture",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: computer,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Basic House",
+    description:
+      "I created a house in Blender, featuring a sleek, modern architecture.",
+    tags: [
+      {
+        name: "Blender",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3D Model",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Texture",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: house,
     source_code_link: "https://github.com/",
   },
 ];
