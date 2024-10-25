@@ -11,6 +11,7 @@ import {
   login,
   matchbox,
   amongus,
+  spotify,
 } from "../assets";
 
 export const navLinks = [
