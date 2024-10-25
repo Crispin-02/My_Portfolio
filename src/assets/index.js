@@ -15,6 +15,7 @@ import reactjs from "./tech/reactjs.png";
 import login from "./login.png";
 import matchbox from "./matchbox.png";
 import amongus from "./amongus.png";
+import spotify from "./spotify.png";
 
 export {
   logo,
@@ -33,4 +34,5 @@ export {
   login,
   matchbox,
   amongus,
+  spotify,
 };
