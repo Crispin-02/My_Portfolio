@@ -192,6 +192,27 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
+    name: "Spotify Login",
+    description:
+      "Ready to dive back into your playlists? Sign in to Spotify and let the music play!",
+    tags: [
+      {
+        name: "Figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CLone",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Design",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: spotify,
+    source_code_link: "https://github.com/",
+  },
+  {
     name: "Match Box",
     description:
       "Match Box is a stunning blend of art and technology, showcasing 3D design at its finest.",
