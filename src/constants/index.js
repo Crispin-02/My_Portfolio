@@ -11,7 +11,8 @@ import {
   login,
   matchbox,
   amongus,
-  spotify
+  spotify,
+  christmastree,
 } from "../assets";
 
 export const navLinks = [
@@ -149,7 +150,7 @@ const testimonials = [
     name: "Henry A S Arrovin",
     designation: "Software Developer",
     company: "Self Employed",
-    image: "https://shorturl.at/Wm5H3",
+    image: "https://rb.gy/3ge2io",
   },
   {
     testimonial:
@@ -194,7 +195,7 @@ const projects = [
   {
     name: "Spotify",
     description:
-      "Ready to dive back into your playlists? Sign in to Spotify and let the music play!",
+      "I designed a Spotify login screen in Figma with a sleek, user-friendly layout.",
     tags: [
       {
         name: "Figma",
@@ -210,7 +211,7 @@ const projects = [
       },
     ],
     image: spotify,
-    source_code_link: "https://www.figma.com/proto/DLKg0Mm5QHzqAS9d2dyUjo/Untitled?node-id=1-2&node-type=canvas&t=GelU2kWF8gOCpmrd-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2",
+    source_code_link: "https://github.com/",
   },
   {
     name: "Match Box",
@@ -276,5 +277,4 @@ const projects = [
     source_code_link: "https://github.com/",
   },
 ];
-
 export { services, technologies, experiences, testimonials, projects };
