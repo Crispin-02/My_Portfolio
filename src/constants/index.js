@@ -16,6 +16,7 @@ import {
   house,
   computer,
   cars,
+  food,
 } from "../assets";
 
 export const navLinks = [
@@ -214,6 +215,27 @@ const projects = [
       },
     ],
     image: spotify,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Tasty Bites",
+    description:
+      "Tasty Bites is a food ordering app designed for easy browsing, ordering, and delivery tracking.",
+    tags: [
+      {
+        name: "Figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Food App",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Design",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: food,
     source_code_link: "https://github.com/",
   },
   {

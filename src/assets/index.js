@@ -20,6 +20,7 @@ import christmastree from "./christmastree.png";
 import cars from "./cars.png";
 import computer from "./computer.png";
 import house from "./house.png";
+import food from "./food.png";
 
 export {
   logo,
@@ -43,4 +44,5 @@ export {
   cars,
   computer,
   house,
+  food,
 };
