@@ -15,7 +15,7 @@ import reactjs from "./tech/reactjs.png";
 import login from "./login.png";
 import matchbox from "./matchbox.png";
 import amongus from "./amongus.png";
-import spotify from "./spotify.jpg";
+import spotify from "./spotify.png";
 import christmastree from "./christmastree.png";
 import cars from "./cars.png";
 import computer from "./computer.png";
