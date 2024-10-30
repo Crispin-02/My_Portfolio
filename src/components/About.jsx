@@ -1,6 +1,5 @@
 import React from "react";
 import { Tilt } from 'react-tilt';
-
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -24,7 +23,7 @@ const ServiceCard = ({ index, title, icon }) => (
       >
         <img
           src={icon}
-          alt='web-development'
+          alt={`Icon representing ${title}`}
           className='w-16 h-16 object-contain'
         />
 
@@ -48,10 +47,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm skilled Graphic Design with experience in 3D Models, Animations 
-        and Logo, and expertise in Tools like Blender, Figma, and
-        canva. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
+        I'm a skilled Graphic Designer with experience in 3D modeling, animations, 
+        and logo design, and expertise in tools like Blender, Figma, and Canva. 
+        I'm a quick learner and collaborate closely with clients to create 
+        efficient, scalable, and user-friendly solutions that solve 
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
