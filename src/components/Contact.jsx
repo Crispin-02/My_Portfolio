@@ -29,6 +29,10 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!form.name || !form.email || !form.message) {
+      alert("Oops! It looks like some fields are still empty. Please fill them out before sending your message!"); // Updated message
+      return;
+    }
     setLoading(true);
 
     emailjs
@@ -63,9 +67,7 @@ const Contact = () => {
   };
 
   return (
-    <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden px-4 md:px-0`} {/* Change: Added px-4 for mobile responsiveness */}
-    >
+    <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden px-4 md:px-0`}>
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
