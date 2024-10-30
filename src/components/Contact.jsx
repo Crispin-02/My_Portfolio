@@ -30,7 +30,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!form.name || !form.email || !form.message) {
-      alert("Oops! It looks like some fields are still empty. Please fill them out before sending your message!"); // Updated message
+      alert("Oops! Please fill them out before sending your message!"); // Updated message
       return;
     }
     setLoading(true);
