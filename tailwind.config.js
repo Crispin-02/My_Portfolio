@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"], // Updated to include TypeScript files
   mode: "jit",
   theme: {
     extend: {
@@ -16,7 +16,7 @@ module.exports = {
         card: "0px 35px 120px -15px #211e35",
       },
       screens: {
-        xs: "450px",
+        xs: "450px", // Custom screen size for small devices
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
