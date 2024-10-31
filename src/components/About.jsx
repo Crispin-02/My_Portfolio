@@ -1,8 +1,6 @@
 import React from "react";
 import { Tilt } from 'react-tilt';
-
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -27,7 +25,6 @@ const ServiceCard = ({ index, title, icon }) => (
           alt='web-development'
           className='w-16 h-16 object-contain'
         />
-
         <h3 className='text-white text-[20px] font-bold text-center'>
           {title}
         </h3>
@@ -46,7 +43,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] px-4' {/* Change: Added px-4 for mobile responsiveness */}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] px-4'
       >
         I'm skilled Graphic Design with experience in 3D Models, Animations 
         and Logo, and expertise in Tools like Blender, Figma, and
